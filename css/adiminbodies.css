@@ -1,0 +1,49 @@
+﻿
+/*tools design on add pages*/
+.txt, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.btn {
+    width: 100%;
+    background-color: #40a8dd;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:.5s;
+}
+
+    .btn:hover {
+        background-color: #073753;
+        transition: .4s;
+    }
+
+div.container {
+    margin:10px;
+    border-radius: 7px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Design of Adding the details of hospitals and doctors*/
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}

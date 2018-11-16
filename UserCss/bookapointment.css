@@ -1,0 +1,61 @@
+﻿.book_container {
+    height: auto;
+    width: 80%;
+    margin: 4% 12%;
+    background-color: #faf6f6;
+}
+
+.book_container .txt{
+    margin-top:10px;
+    height:25px;
+    padding:10px 10px;
+    width:800px;
+    color:#000000;
+    font-family:Arial;
+    border:2px solid #808080;
+    border-radius:3px;
+}
+.multxt {
+    margin-top: 10px;
+    height: 200px;
+    padding: 10px 10px;
+    width: 800px;
+    color: #000000;
+    font-family: Arial;
+    border: 2px solid #808080;
+    border-radius: 3px;
+}
+.ddl {
+    margin-top: 10px;
+    height: 45px;
+    padding: 10px 10px;
+    width: 820px;
+    color: #000000;
+    font-family: Arial;
+    border: 2px solid #808080;
+    border-radius: 3px;
+}
+.box {
+    height:100px;
+    width: 80%;
+    background-color: #faf6f6;
+}
+.book_container .btn {
+    font-size: 20px;
+    font-weight: normal;
+    color: #204379;
+    margin-left: 300px;
+    margin-top: 20px;
+    border: 2px solid #000000;
+    border-radius: 7px;
+    padding: 10px;
+    transition: all 0.5s ease-in-out 0s;
+    cursor: pointer;
+    background-color: #ff6a00;
+    color: #000000;
+}
+.book_container .btn:hover {
+    color: #ff6a00;
+    background-color: #000000;
+    border: 2px solid #ff6a00;
+}

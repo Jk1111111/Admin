@@ -1,0 +1,39 @@
+﻿
+.mydatagrid {
+    position:relative;
+    margin-top:30px;
+    width: auto;
+    border: solid 2px black;
+}
+.heade {
+    background-color:#5badff;
+    font-family: Arial;
+    color: White;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.rows {
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    height:25px;
+    text-align: left;
+}
+
+    .rows:hover {
+        background-color: #5badff;
+        color: #fff;
+    }
+
+
+.pager {
+    background-color: #5badff;
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+

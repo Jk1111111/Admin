@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Share2.master.cs" Inherits="UserPages_Share2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="../UserCss/share2.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header">
+        <img src="../Image/Hospice-Friendly-Hospitals-logo.jpg" alt="" />
+         <div class="navbar">
+           <ul>
+            <li><a href="index.aspx">Home</a></li>
+            <li><a href="hospitalDetails.aspx">Hosptails</a></li>
+            <li><a href="doctorDetails.aspx">Doctors</a></li>
+            <li><a href="about.aspx">About Us</a></li>
+            <li><a href="contact.aspx">Contact Us</a></li>
+           </ul>
+        </div>
+        <asp:Button ID="Button1" runat="server" Text="Admin" CssClass="admBtn" OnClick="Button1_Click"/>
+     </div> 
+    <div class="bodies">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="footer">
+       <div class="foo_box">
+           <h2 style="color:white">ABOUT US</h2>
+           <p style="color:#ffffff;font-style:italic;font-family:Arial;font-size:15px;">
+               This is our step to help doctor tackle the problems they face.
+               Idea is to develop an application for doctors working
+			   in Hospitals so that they can get updated information of patients
+               under their care. They can get information of patients
+			   who need immediate acknowledgement.</p>
+       </div>
+        <div class="foo_box">
+            <h2 style="color:white">Contact Info</h2>
+           <span style="color:white;margin-top:30px;">Lovely Professional University,</span>
+            <span style="color:white;margin-top:30px;">Jalandhar</span>
+            <span style="color:white;margin-top:30px;">hospicefriendly@gmail.com</span><br />
+            <span style="color:white;margin-top:30px;">+91 8195884441</span>
+       </div>
+        <div class="foo_box">
+           <h2 style="color:white">Navigation</h2>
+           <ul>
+               <li><a href="index.aspx">Index</a></li>
+               <li><a href="index.aspx">Service</a></li>
+               <li><a href="index.aspx">Doctors</a></li>
+               <li><a href="index.aspx">About</a></li>
+               <li><a href="index.aspx">Contact</a></li>
+           </ul>
+       </div>
+    </div>
+    </form>
+</body>
+</html>

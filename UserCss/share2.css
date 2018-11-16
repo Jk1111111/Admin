@@ -1,0 +1,108 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+.header{
+    height:120px;
+    width:auto;
+    background-color:#ffffff;
+    border-bottom:2px solid #ff6a00;
+}
+.header img{
+    margin:10px;
+    height:100px;
+    width:250px;
+    float:left;
+}
+.navbar{
+    overflow:hidden;
+    float:left;
+    margin-top:60px;
+    margin-left:30px;
+
+}
+    .navbar ul {
+        padding: 0px 55px;
+        list-style: none;
+    }
+.navbar ul li{
+    float:left;
+}
+    .navbar ul li a {
+        color: #000000;
+        display: block;
+        padding: 13px;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: 500;
+        font-size: medium;
+        transition: all 0.5s ease-in-out 0s;
+    }
+        .navbar ul li a:hover {
+            color: #000000;
+            background-color: #ff6a00;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+.admBtn {
+    margin: 20px 55px;
+    float: right;
+    text-align: center;
+    background-color: #ffffff;
+    color: #2a75b5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    height: 40px;
+    width: 100px;
+    border: 2px solid #2a75b5;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+}
+    .admBtn:hover {
+        background-color: #2a75b5;
+        color: #ffffff;
+        border-radius:5px;
+    }
+.bodies {
+    height: auto;
+    width: auto;
+}
+.footer{
+    height:250px;
+    width:auto;
+    background-color:#000000;
+}
+.foo_box{
+    height:200px;
+    width:320px;
+    margin:20px 40px;
+    float:left;
+}
+    .foo_box ul {
+        list-style:circle;
+    }
+
+        .foo_box ul li {
+            left:0;
+        }
+
+            .foo_box ul li a {
+                color: white;
+                text-decoration:underline;
+                font-family: Arial;
+                font-weight: 500;
+                font-size: medium;
+                transition: all 0.5s ease-in-out 0s;
+            }
+
+                .foo_box ul li a:hover {
+                    color: #ff6a00;
+                    text-decoration:none;
+                }
+    .lbl {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        color: #000000;
+    }
